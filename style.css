@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: hsl(30, 38%, 92%);
+  width: 100%;
+  min-height: 97.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 480px;
+  height: 350px;
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.images {
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+}
+
+.p-head {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 8%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.h-head {
+  font-size: 1.5em;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  margin-top: 8%;
+  color: hsl(212, 21%, 14%);
+}
+
+.p-content {
+  font-size: 12px;
+  margin-top: 8%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.h-price {
+  font-size: 1.8em;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  margin-top: 8%;
+  color: hsl(158, 36%, 37%);
+}
+
+.p-price {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 10%;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  margin-top: 10%;
+  box-shadow: none;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+}
+
+i {
+  color: white;
+}
+
+.button a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: hsl(30, 38%, 92%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
